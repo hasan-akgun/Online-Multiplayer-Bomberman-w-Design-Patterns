@@ -1,0 +1,98 @@
+Date : 2025-12-07 18:26:36
+Directory : c:\Users\Hasan\Documents\Ödevler\Bomberman\src
+Total : 42 files,  1676 codes, 23 comments, 85 blanks, all 1784 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| C#         |         31 |        855 |         23 |         80 |        958 |
+| JSON       |          6 |        762 |          0 |          0 |        762 |
+| Properties |          2 |         34 |          0 |          2 |         36 |
+| XML        |          3 |         25 |          0 |          3 |         28 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                               | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                  |         42 |      1,676 |         23 |         85 |      1,784 |
+| . (Files)                                                                                                          |          2 |         43 |          1 |         11 |         55 |
+| Game                                                                                                               |         24 |        782 |          0 |         58 |        840 |
+| Game (Files)                                                                                                       |          1 |        118 |          0 |          5 |        123 |
+| Game\Bombs                                                                                                         |          3 |        128 |          0 |          2 |        130 |
+| Game\Bombs\Abstractions                                                                                            |          2 |         16 |          0 |          0 |         16 |
+| Game\Bombs\Concretes                                                                                               |          1 |        112 |          0 |          2 |        114 |
+| Game\Map                                                                                                           |         17 |        394 |          0 |         35 |        429 |
+| Game\Map\Abstractions                                                                                              |          2 |         52 |          0 |          1 |         53 |
+| Game\Map\Concretes                                                                                                 |         10 |        177 |          0 |         18 |        195 |
+| Game\Map\Concretes (Files)                                                                                         |          7 |        132 |          0 |         13 |        145 |
+| Game\Map\Concretes\Factories                                                                                       |          3 |         45 |          0 |          5 |         50 |
+| Game\Map\Renderer                                                                                                  |          5 |        165 |          0 |         16 |        181 |
+| Game\Map\Renderer (Files)                                                                                          |          1 |         67 |          0 |          8 |         75 |
+| Game\Map\Renderer\Abstractions                                                                                     |          1 |         12 |          0 |          2 |         14 |
+| Game\Map\Renderer\Concretes                                                                                        |          3 |         86 |          0 |          6 |         92 |
+| Game\Player                                                                                                        |          3 |        142 |          0 |         16 |        158 |
+| Game\Player\Abstractions                                                                                           |          2 |         51 |          0 |          9 |         60 |
+| Game\Player\Concretes                                                                                              |          1 |         91 |          0 |          7 |         98 |
+| bin                                                                                                                |          4 |         71 |          0 |          0 |         71 |
+| bin\Debug                                                                                                          |          2 |         35 |          0 |          0 |         35 |
+| bin\Debug\net10.0                                                                                                  |          2 |         35 |          0 |          0 |         35 |
+| bin\Release                                                                                                        |          2 |         36 |          0 |          0 |         36 |
+| bin\Release\net10.0                                                                                                |          2 |         36 |          0 |          0 |         36 |
+| obj                                                                                                                |         12 |        780 |         22 |         16 |        818 |
+| obj (Files)                                                                                                        |          4 |        708 |          0 |          0 |        708 |
+| obj\Debug                                                                                                          |          4 |         36 |         11 |          8 |         55 |
+| obj\Debug\net10.0                                                                                                  |          4 |         36 |         11 |          8 |         55 |
+| obj\Release                                                                                                        |          4 |         36 |         11 |          8 |         55 |
+| obj\Release\net10.0                                                                                                |          4 |         36 |         11 |          8 |         55 |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                           | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Bombs\Abstractions\IObserver.cs                                | C#         |          7 |          0 |          0 |          7 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Bombs\Abstractions\ISubject.cs                                 | C#         |          9 |          0 |          0 |          9 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Bombs\Concretes\Bomb.cs                                        | C#         |        112 |          0 |          2 |        114 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\GameManager.cs                                                 | C#         |        118 |          0 |          5 |        123 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Abstractions\ITheme.cs                                     | C#         |          8 |          0 |          0 |          8 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Abstractions\ThemeFactory.cs                               | C#         |         44 |          0 |          1 |         45 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\CityUnWall.cs                                    | C#         |         12 |          0 |          1 |         13 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\CityWall.cs                                      | C#         |         28 |          0 |          2 |         30 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\DesertUnWall.cs                                  | C#         |         12 |          0 |          2 |         14 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\DesertWall.cs                                    | C#         |         28 |          0 |          2 |         30 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\Factories\CityFactory.cs                         | C#         |         15 |          0 |          1 |         16 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\Factories\DesertFactory.cs                       | C#         |         15 |          0 |          2 |         17 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\Factories\ForestFactory.cs                       | C#         |         15 |          0 |          2 |         17 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\ForestUnWall.cs                                  | C#         |         12 |          0 |          2 |         14 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\ForestWall.cs                                    | C#         |         28 |          0 |          2 |         30 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Concretes\InvisibleWall.cs                                 | C#         |         12 |          0 |          2 |         14 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Renderer\Abstractions\RendererHandler.cs                   | C#         |         12 |          0 |          2 |         14 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Renderer\Concretes\RenderBomb.cs                           | C#         |         35 |          0 |          2 |         37 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Renderer\Concretes\RenderPlayer.cs                         | C#         |         24 |          0 |          2 |         26 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Renderer\Concretes\RenderWall.cs                           | C#         |         27 |          0 |          2 |         29 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Map\Renderer\MapRenderer.cs                                    | C#         |         67 |          0 |          8 |         75 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Player\Abstractions\IPlayer.cs                                 | C#         |         14 |          0 |          0 |         14 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Player\Abstractions\PlayerDecarator.cs                         | C#         |         37 |          0 |          9 |         46 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Game\Player\Concretes\Player.cs                                     | C#         |         91 |          0 |          7 |         98 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\Program.cs                                                          | C#         |         35 |          1 |          8 |         44 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\bin\Debug\net10.0\src.deps.json                                     | JSON       |         23 |          0 |          0 |         23 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\bin\Debug\net10.0\src.runtimeconfig.json                            | JSON       |         12 |          0 |          0 |         12 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\bin\Release\net10.0\src.deps.json                                   | JSON       |         23 |          0 |          0 |         23 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\bin\Release\net10.0\src.runtimeconfig.json                          | JSON       |         13 |          0 |          0 |         13 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs   | C#         |          3 |          1 |          1 |          5 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\Debug\net10.0\src.AssemblyInfo.cs                               | C#         |          9 |          9 |          5 |         23 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\Debug\net10.0\src.GeneratedMSBuildEditorConfig.editorconfig     | Properties |         17 |          0 |          1 |         18 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\Debug\net10.0\src.GlobalUsings.g.cs                             | C#         |          7 |          1 |          1 |          9 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\Release\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs | C#         |          3 |          1 |          1 |          5 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\Release\net10.0\src.AssemblyInfo.cs                             | C#         |          9 |          9 |          5 |         23 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\Release\net10.0\src.GeneratedMSBuildEditorConfig.editorconfig   | Properties |         17 |          0 |          1 |         18 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\Release\net10.0\src.GlobalUsings.g.cs                           | C#         |          7 |          1 |          1 |          9 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\project.assets.json                                             | JSON       |        348 |          0 |          0 |        348 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\src.csproj.nuget.dgspec.json                                    | JSON       |        343 |          0 |          0 |        343 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\src.csproj.nuget.g.props                                        | XML        |         15 |          0 |          0 |         15 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\obj\src.csproj.nuget.g.targets                                      | XML        |          2 |          0 |          0 |          2 |
+| c:\Users\Hasan\Documents\Ödevler\Bomberman\src\src.csproj                                                          | XML        |          8 |          0 |          3 |         11 |
+| Total                                                                                                              |            |      1,676 |         23 |         85 |      1,784 |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
