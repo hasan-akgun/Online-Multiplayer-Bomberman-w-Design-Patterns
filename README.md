@@ -38,6 +38,8 @@ The project extensively uses Object-Oriented Design Patterns to ensure modularit
     *   *Usage:* The `RendererHandler` chain (`RenderBomb` -> `RenderEnemy` -> `RenderPlayer`...) determines the drawing order, ensuring dynamic entities appear on top of the background.
 *   **State:** Used for Network Connection handling.
     *   *Usage:* The `ConnectionContext` switches between `Connected` and `NotConnected` states to manage the initial server connection loop.
+*   **Composite:** Used in the Menu System.
+    *   *Usage:* `MenuPage` acts as a composite that can hold other `MenuComponent` items (like `LoginItem` or sub-menus), allowing for a hierarchical menu structure.
 
 ### Server-Side Patterns
 *   **Facade:**
@@ -119,9 +121,9 @@ Bomberman/
 ├── Game/ (Client Application)
 │   ├── src/Game/
 │   │   ├── Bombs/          # Observer Pattern Implementation
-│   │   ├── Enemy/          # Enemy Logic (Strategy/State)
+│   │   ├── Enemy/          # Enemy Logic
 │   │   ├── Map/            # Abstract Factory & Rendering Chain
-│   │   ├── Menu/           # Menu System
+│   │   ├── Menu/           # Menu System (Composite)
 │   │   ├── Players/        # Player Logic
 │   │   ├── GameManager.cs  # Main Game Loop (Singleton)
 │   │   └── NetworkManager.cs
